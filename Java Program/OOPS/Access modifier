@@ -1,0 +1,7 @@
+protected: Accessible within the same class, subclasses (even if they are in different packages), and the same package.
+
+default (package-private): Accessible only within the same package.
+
+public: Members with this access modifier are accessible from anywhere. They can be accessed by any other class or package.
+
+private: Members with this access modifier are only accessible within the same class. They are not visible or accessible from outside the class, including subclasses.
